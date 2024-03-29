@@ -1,33 +1,12 @@
-// -------------- THEME SWITCHER -------------- //
-@mixin dark-appearance {
-  filter: invert(1);
-  img {
-    filter: invert(1);
 
-    &.ioda { filter: invert(0); }
-  }
-}
-
-body[a="dark"] { @include dark-appearance; }
-
-
-@media (prefers-color-scheme: dark) {
-  body[a="auto"] { @include dark-appearance; }
-}
-// -------------------------------------------- //
-
-// bg color is also needed in html in order to
-// block body's background propagation
-// see: https://stackoverflow.com/a/61265706
-html, body { background: white; }
+html, body { background: #c4c4c4; }
 
 html { height: 100%; }
 
 body {
-  font-family: "JetBrains Mono", monospace;
+  font-family: monospace;
   font-optical-sizing: auto;
   color: black;
-  font-family: monospace;
   font-size: 14px;
   line-height: 1.5;
   margin: 0;

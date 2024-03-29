@@ -1,10 +1,10 @@
-title: Vozdra, šta se radi? # name of the site
+title: alem.me # name of the site
 author:  # name of site's author
 email:  # email of site's author
 url: https://alem.me # root address of the site
 baseurl: "/" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
-  A (nearly) no-CSS, fast, minimalist Jekyll theme.
+  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
 permalink: /:slug.html
 
@@ -15,9 +15,9 @@ remote-theme: no-style-please # if you are using GitHub Pages, change it to remo
 
 theme_config:
   appearance: "auto" # can be "light", "dark" or "auto"
-  back_home_text: ".." # customize text for homepage link in post layout
-  date_format: "%Y-%m-%d" # customize how date is formatted
-  show_description: false # show blog description in home page
+  back_home_text: "alem.me" # customize text for homepage link in post layout
+  date_format: "%d-%m-%Y" # customize how date is formatted 
+  show_description: true # show blog description in home page
 
 sass:
   style: :compressed
