@@ -4,6 +4,21 @@
   <body a="{{ site.theme_config.appearance | default: "auto" }}">
     <main class="page-content" aria-label="Content">
       <div class="w">
+        <div id="custom-substack-embed"></div>
+
+
+<script>
+  window.CustomSubstackWidget = {
+    substackUrl: "sarajevo.substack.com",
+    placeholder: "example@gmail.com",
+    buttonText: "Subscribe",
+    theme: "purple",
+
+    // Go to substackapi.com to unlock custom redirect
+
+  };
+</script>
+<script src="https://substackapi.com/widget.js" async></script>
         {{ content }}
       </div>
     </main>
