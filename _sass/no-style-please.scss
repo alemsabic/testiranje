@@ -18,7 +18,7 @@ body[a="dark"] { @include dark-appearance; }
 }
 
 
-html, body { background: #c4c4c4; }
+html, body { background: #d3d3d3; }
 
 html { height: 100%; }
 
@@ -93,20 +93,17 @@ img {
 }
 /* unvisited link */
 a:link {
+  color: rgb(208, 0, 255);
+}
+a:visited {
   color: red;
 }
 
-/* visited link */
-a:visited {
-  color: orange;
-}
-
-/* mouse over link */
-a:hover {
-  color: hotpink;
-}
-
-/* selected link */
-a:active {
-  color: blue;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: left;
 }
