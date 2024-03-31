@@ -6,11 +6,6 @@ entries:
   - title: Alle Einträge
     post_list:
       limit: 5
-      show_more: true
-      show_more_text: See archive...
-      show_more_url: archive.html
 
-  - title: RSS-Feed
-    url: feed.xml
   
 
