@@ -3,7 +3,7 @@
 
 entries:
   
-  - title: Alle Einträge
+  - title: /** Alle Einträge **/
     post_list:
       limit: 5
 
