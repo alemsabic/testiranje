@@ -3,9 +3,20 @@
 
 entries:
   
-  - title: Alle Einträge
+  - title: Was gibt's Neues?
     post_list:
       limit: 5
 
-  
+  - title: Projekte
+    entries:
+      - title: Sprache & Schreiben
+        url: https://write.alem.me
+      - title: Training & Verhalten
+        url: https://train.alem.me
+      - title: Prva knjiga
+        url: https://eins.alem.me
 
+  - title: RSS-Feed
+    url: feed.xml
+  - title: Newsletter "NE KONTAM - ČASOPIS ZA TEŠKE INTELEKTUALCE."
+    url: https:/nekontam.alem.me

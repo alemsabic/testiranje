@@ -7,7 +7,11 @@ gem "kramdown-parser-gfm"
 gemspec
 gem "webrick", "~> 1.8"
 
+gem 'csv'
 
+gem 'base64'
+
+gem 'bigdecimal'
 
 git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 

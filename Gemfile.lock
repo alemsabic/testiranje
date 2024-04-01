@@ -14,6 +14,8 @@ GEM
       zeitwerk (~> 2.2, >= 2.2.2)
     addressable (2.8.6)
       public_suffix (>= 2.0.2, < 6.0)
+    base64 (0.2.0)
+    bigdecimal (3.1.7)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -22,6 +24,7 @@ GEM
     commonmarker (0.17.13)
       ruby-enum (~> 0.5)
     concurrent-ruby (1.2.3)
+    csv (3.3.0)
     dnsruby (1.72.0)
       simpleidn (~> 0.2.1)
     em-websocket (0.5.3)
@@ -278,6 +281,9 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  base64
+  bigdecimal
+  csv
   github-pages (~> 215)
   kramdown-parser-gfm
   no-style-please!
