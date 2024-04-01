@@ -3,7 +3,7 @@
 
 entries:
   
-  - title: Was gibt's Neues?
+  - title: NEWS
     post_list:
       limit: 5
 
@@ -16,7 +16,9 @@ entries:
       - title: Prva knjiga
         url: https://eins.alem.me
 
-  - title: RSS-Feed
-    url: feed.xml
-  - title: Newsletter "NE KONTAM - ČASOPIS ZA TEŠKE INTELEKTUALCE."
-    url: https:/nekontam.alem.me
+  - title: Bleiben Sie auf dem Laufenden
+    entries:
+      - title: RSS-Feed
+        url: feed.xml
+      - title: Newsletter
+        url: https://nekontam.alem.me
